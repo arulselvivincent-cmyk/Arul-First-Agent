@@ -1,4 +1,4 @@
-from rest_framework import viewsets
+from rest_framework import viewsets # pyright: ignore[reportMissingImports]
 from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
 
